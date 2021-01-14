@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import 'react-dom';
 import '../Sass/LogReg.scss';
 import Loader from '../images/loder.webp';
 import {Link} from 'react-router-dom';
+import 'react-dom';
+
 
 class login extends Component {
 
@@ -12,7 +13,7 @@ class login extends Component {
 
                 <div className = "container d-flex justify-content-center align-items-center">
 
-                    <form className = "register-form log-reg">
+                    <form className = "register-form log-reg opacity-animation">
 
                         <div className = "logo-and-head">
                             <img src = {Loader} className ="log-reg-logo" alt="loader"/>
@@ -23,11 +24,11 @@ class login extends Component {
 
                             <label htmlFor = "email">
                                 <span>Email Address</span>
-                                <input type = "mail" id = "email" name ="email" placeholder ="Email Address... "/>
+                                <input type = "mail" id = "email" name ="email" placeholder ="Email Address... " required/>
                             </label>
                             <label htmlFor = "password">
                                 <span>Password</span>
-                                <input type = "password" id = "password" name ="password" placeholder ="Password... "/>
+                                <input type = "password" id = "password" name ="password" placeholder ="Password... " required/>
                             </label>
 
                             <button>Login</button>

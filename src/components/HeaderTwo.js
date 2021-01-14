@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 class HeaderTwo extends Component {
     render() {
         return (
-            <div className = "header-two container">
+            <div className = "header-two opacity-animation container">
                 <div className = "hero-caption">
                     <span>Best Domain & hosting service provider</span>
                     <h1>Powerful web hosting</h1>

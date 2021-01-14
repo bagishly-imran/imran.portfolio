@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 class Faq extends Component {
     render() {
         return (
-            <div className = "faq">
+            <div className = "faq opacity-animation">
 
                 <div className = "section-title">
                     <h2>Frequently ask questions</h2>

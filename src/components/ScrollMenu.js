@@ -40,7 +40,7 @@ class ScrollMenu extends Component {
 
     render() {
         return (
-            <div className = "scroll-menu">
+            <div className = "scroll-menu" id = "navbar-menu">
                 <div className = "header-one nav container">
                     <Link to = '/' className = "logo">
                         <img src = {Logo} alt = "logo"/>

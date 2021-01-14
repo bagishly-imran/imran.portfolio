@@ -12,7 +12,7 @@ class packages extends Component {
         return (
             <div className = "packages-caption">
 
-                <div className = "section-title container">
+                <div className = "section-title opacity-animation container">
                     <h2>Choose plan which fit for you</h2>
                     <p className = "text-center">
                         Supercharge your WordPress hosting with detailed website analytics, marketing tools. 
@@ -22,7 +22,7 @@ class packages extends Component {
                 </div>
 
                 <div className ="container">
-                    <div className ="packages-content row">
+                    <div className ="packages-content opacity-animation row">
 
                         <div className ="my-pack col-12 col-md-6 col-lg-3">
                             <img src={Price1} alt="price icon"/>

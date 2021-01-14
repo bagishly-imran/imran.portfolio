@@ -10,7 +10,7 @@ class forgot extends Component {
 
                 <div className = "container d-flex justify-content-center align-items-center">
 
-                    <form className = "forgot-form log-reg">
+                    <form className = "forgot-form log-reg opacity-animation">
 
                         <div className = "logo-and-head">
                             <img src = {Loader} className ="log-reg-logo" alt="loader"/>
@@ -21,7 +21,7 @@ class forgot extends Component {
 
                             <label htmlFor = "email">
                                 <span>Email Address</span>
-                                <input type = "mail" id = "email" name ="email" placeholder ="Email Address... "/>
+                                <input type = "mail" id = "email" name ="email" placeholder ="Email Address... " required/>
                             </label>
 
                             <button>Send</button>

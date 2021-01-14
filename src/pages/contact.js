@@ -17,20 +17,20 @@ class contact extends Component {
                 </div>
 
                 <div className = "touch-caption container">
-                    <div className = "get-in-touch">
+                    <form className = "get-in-touch">
                         <h4 className ="w-100">Get in Touch</h4>
 
-                        <textarea className ="message" placeholder ="Enter Message..."></textarea>
+                        <textarea className ="message" placeholder ="Enter Message..." required></textarea>
 
                         <label className ="user-label">
-                            <input className = "name" id ="name" name ="name" placeholder ="Enter your name..."/>
-                            <input className ="mail" id = "mail" name ="mail" placeholder = "Enter your mail..."/>
+                            <input className = "name" id ="name" name ="name" placeholder ="Enter your name..." required/>
+                            <input className ="mail" id = "mail" name ="mail" placeholder = "Enter your mail..." required/>
                         </label>
 
-                        <input className ="subject" id ="subject" name = "subject"  placeholder = "Enter Subject..."/>
+                        <input className ="subject" id ="subject" name = "subject"  placeholder = "Enter Subject..." required/>
 
-                        <a className = "go-to-btn btn">SEND</a>
-                    </div>
+                        <button className = "go-to-btn btn">SEND</button>
+                    </form>
                     <div className ="contact-caption">
                         <ul>
                             <li>
